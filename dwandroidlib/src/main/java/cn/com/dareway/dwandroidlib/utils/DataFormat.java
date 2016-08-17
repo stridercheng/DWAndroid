@@ -14,12 +14,9 @@ import java.util.Date;
 public class DataFormat {
 
 	private static final String NumberFormatPatterns = "##0";
-	private static final char CHINESE_NUMBER[] = { '零', '壹', '贰', '叁', '肆',
-			'伍', '陆', '柒', '捌', '玖' };
+	private static final char CHINESE_NUMBER[] = {'零','壹','贰','叁','肆','伍','陆','柒','捌','玖'};
 	private static final char CHINESE_CODE[] = { '分', '角', '整' };
-	private static final char CHINESE_CARRY[] = { '元', '拾', '佰', '仟', '万', '拾',
-			'佰', '仟', '亿', '拾', '佰', '仟', '兆', '拾', '佰', '仟', '万', '拾', '佰',
-			'仟' };
+	private static final char CHINESE_CARRY[] = { '元', '拾', '佰', '仟', '万', '拾',	'佰', '仟', '亿', '拾', '佰', '仟', '兆', '拾', '佰', '仟', '万', '拾', '佰', '仟' };
 	private static int maxMoneyLength = 16;
 
 	/**
